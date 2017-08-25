@@ -39,7 +39,7 @@ Img tag:
 ```
 <img 
   src="./your-placeholder-image.jpg" 
-  v-lazy="image.src" 
+  v-lazy="your-placeholder-image.jpg" 
   lazy />
 ```
 
@@ -48,7 +48,7 @@ Background-image property:
 ```
   <div 
     :style="{ 'background-image' : 'url(./your-placeholder-image.jpg)' }"
-    v-lazy:background-image="image.src"
+    v-lazy:background-image="your-actual-image.jpg"
     lazy></div>
 ```
 

@@ -1,4 +1,4 @@
-# Vue-LazyLazy-Load
+# Vue-LazyLazyLoad
 
 - Real simple image preloading to be used with Vue.js
 - Goes with both img tag and background-image property
@@ -43,7 +43,7 @@ Img tag:
   lazy />
 ```
 
-Background-image:
+Background-image property:
 
 ```
   <div 

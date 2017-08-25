@@ -39,7 +39,7 @@ Img tag:
 ```
 <img 
   src="./your-placeholder-image.jpg" 
-  v-lazy="your-placeholder-image.jpg" 
+  v-lazy="your-actual-image.jpg" 
   lazy />
 ```
 

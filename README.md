@@ -60,7 +60,6 @@ Styling example with a nice fade-in effect:
 [lazy] {
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: opacity .2s ease, visibility .2s ease;
   transition: opacity .2s ease, visibility .2s ease;
 }
 [lazy='loaded'] {

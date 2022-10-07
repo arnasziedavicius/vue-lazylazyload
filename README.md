@@ -37,17 +37,21 @@ Vue.directive('lazy', (el, binding) => {
 Img tag:
 
 ```
-<img src="./your-placeholder-image.jpg" 
+<img 
+  src="./your-placeholder-image.jpg" 
   v-lazy="your-actual-image.jpg" 
-  lazy />
+  lazy
+/>
 ```
 
 Background-image property:
 
 ```
-  <div :style="{ 'background-image' : 'url(./your-placeholder-image.jpg)' }"
+  <div
+    :style="{ 'background-image' : 'url(./your-placeholder-image.jpg)' }"
     v-lazy:background-image="your-actual-image.jpg"
-    lazy></div>
+    lazy
+  />
 ```
 
 ### Styling
